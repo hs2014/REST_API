@@ -14,6 +14,9 @@ You can expose your Apex class and methods so that external applications can acc
 3. Click on File | New | Apex Class
 4. Give your class a name HelloWorld
 5. Type in the code below. This simulates a usual Apex class for a simple logic of returning a concatenated string
+
+![image](https://cloud.githubusercontent.com/assets/6711541/9060267/86601592-3af5-11e5-9555-036006bdf1bb.png)
+
 6. Save your code
 
 ##Convert your class to be a REST Resource
@@ -24,13 +27,27 @@ You can expose your Apex class and methods so that external applications can acc
 5. You need to remove the parameter from the method as @HttpGet annotation cannot handle
 6. See screenshot below for the end-result 
 
+![image](https://cloud.githubusercontent.com/assets/6711541/9060272/9af00634-3af5-11e5-9af3-5876aab712b0.png)
+
+
 ##Test the webservice using Workbench
 
 1. Navigate to workbench and select Production if you are using a developer org, or select sandbox if you are using a sansbox. 
 https://workbench.developerforce.com/
+
+![image](https://cloud.githubusercontent.com/assets/6711541/9060277/a4291c0e-3af5-11e5-94b9-d24390bacbfd.png)
+
+
 2. Accept the terms of service and proceed to Login 
 3. Once logged in, select REST Explorer, and click Select
+
+![image](https://cloud.githubusercontent.com/assets/6711541/9060284/abe78da4-3af5-11e5-912c-46beb40137b2.png)
+ 
+
 4. Once in the REST screen, type your REST webservice URL and provide the parameter as well. 
+
+![image](https://cloud.githubusercontent.com/assets/6711541/9060286/b0a32894-3af5-11e5-9f87-54a0c40f1fb8.png)
+
 5. The result shows the string concatenated with the parameter. The web-service is successfully working ! 
 
 ##Summary 
